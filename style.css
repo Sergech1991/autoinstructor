@@ -1,0 +1,261 @@
+/*Сброс стилей для всех браузеров*/
+* {
+  box-sizing: border-box;
+}
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+ol {
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*Конец сброса стилей*/
+
+.root {
+  max-width: 1440px;
+  color: #242321;
+  font-family: DIN Pro;/*допиши универсальные стили*/
+  margin: 0 auto;
+  background-color: gray;
+}
+
+.page {
+  background-color: #fff;
+}
+
+
+.header__info {
+  display: flex;
+  flex-direction: row;
+  background-color: #242321;
+}
+
+.nav {
+  color: #FBFBFB;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin: 49px 34px 49px 150px;
+  font-size: 18px;
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 45px;
+}
+
+.header__phone {
+  background-color: #FCB300;
+  font-size: 24px;
+  font-weight: 500;
+  max-width: 360px;
+  width: 100%;
+}
+
+.phone {
+  display: flex;
+  flex-direction: row;
+  margin-left: 52px;
+}
+
+.phone:first-child {
+  margin-top: 7px;
+  margin-bottom: 10px;
+}
+
+.phone__text {
+  margin-right: 24px;
+}
+
+.a1 {
+  width: 33px;
+  height: 33px;
+  margin-right: 5px;
+}
+
+.viber {
+  width: 41px;
+  height: 29px;
+  margin-top: 5px;
+}
+
+.mts {
+  width: 31px;
+  height: 31px;
+}
+
+/*выровняй кнопку по центру*/
+.phone__button {
+  border: none;
+  background-color: #FCB300;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 9px;
+  margin-bottom: 4px;
+  margin-left: 70px;/*вместо 81px*/
+}
+
+.header__block {
+  background-image: url(images/header-phone.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  /* max-width: 1440px; */
+  text-transform: uppercase;
+  padding-top: 452px;
+}
+
+.block__info {
+  top: 452px;
+  font-size: 48px;
+  max-width: 1125px;
+  background-color: #FCB300;
+  padding-left: 150px;
+  padding-top: 72px;
+  padding-bottom: 79px;
+  display: flex;
+}
+
+.block__info-one {
+  display: block;
+  max-width: 503px;
+}
+
+.block-text {
+  padding-left: 150px;
+  display: inline-block;
+  max-width: 503px;
+}
+
+.block__text-white {
+  color: #FBFBFB;
+  font-weight: 900;
+}
+
+.block__text-font {
+  font-size: 18px;
+}
+
+.info__button {
+  font-weight: 500;
+  font-size: 24px;
+  background-color: #FBFBFB;
+  padding: 26px 105px;
+  border: none;
+  margin-top: 100px;
+  text-transform: uppercase;
+}
+
+.block__info-two {
+  font-weight: 500;
+  color: #FBFBFB;
+  letter-spacing: 0;
+  position: relative;
+}
+
+.b, .c, .e {
+  font-size: 288px;
+  position: absolute;
+}
+
+.b {
+  top: -105px;
+}
+
+.c {
+  top: -30px;
+  left: 150px;
+}
+
+.e {
+  top: 70px;
+  left: 280px;
+}
+
+.info-two_category {
+  font-weight: 500;
+  font-size: 24px;
+  color: #242321;
+  margin-top: 320px;
+  margin-left: 145px;
+}
+
+
+
+
+.study__title, .price__title {
+  margin: 155px auto 60px 150px;
+  font-weight: 500;
+  font-size: 36px;
+}
+
+.study__cover {
+  position: relative;
+}
+
+.study__info {
+  position: absolute;
+  max-width: 1125px;
+  background-color: #FCB300;
+  padding: 35px 0 35px 150px;
+  font-weight: 500;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.keys {
+  position: absolute;
+  left: 1250px;
+  top: -3px;
+}
+
+
+.study__item {
+  border: 5px solid #FCB300;
+  padding-top: 238px;
+  padding-left: 200px;
+  padding-bottom: 88px;
+  margin-left: 150px;
+}
+
+.study__item-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.study__item-list:not(:last-child) {
+  margin-bottom: 33px;
+}
+
+/* h3 {
+  margin-bottom: 10px;
+} */
+
+.check {
+  margin-right: 22px;
+  width: 39,42px;
+  height: 32,38px;
+}
+
+
