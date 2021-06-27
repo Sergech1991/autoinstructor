@@ -33,7 +33,7 @@ table {
 /*Конец сброса стилей*/
 
 .root {
-  max-width: 1440px;
+  width: 1440px;
   color: #242321;
   font-family: DIN Pro;/*допиши универсальные стили*/
   margin: 0 auto;
