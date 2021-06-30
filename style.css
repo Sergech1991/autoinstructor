@@ -248,14 +248,21 @@ table {
   margin-bottom: 33px;
 }
 
-/* h3 {
+h3 {
   margin-bottom: 10px;
-} */
+}
+
+.check__block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .check {
   margin-right: 22px;
   width: 39,42px;
   height: 32,38px;
+  vertical-align: middle;
 }
 
 
