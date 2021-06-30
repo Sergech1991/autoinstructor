@@ -77,7 +77,7 @@ table {
 .phone {
   display: flex;
   flex-direction: row;
-  margin-left: 52px;
+  margin-left: 50px;
 }
 
 .phone:first-child {
@@ -86,7 +86,7 @@ table {
 }
 
 .phone__text {
-  margin-right: 20px;
+  margin-right: 15px;
 }
 
 .a1 {
