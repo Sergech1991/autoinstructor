@@ -171,6 +171,8 @@ table {
 
 .block__text-font {
   font-size: 18px;
+  display: inline-block;
+  margin-bottom: 100px;
 }
 
 .info__button {
@@ -179,8 +181,9 @@ table {
   background-color: #FBFBFB;
   padding: 26px 105px;
   border: none;
-  margin-top: 100px;
+  /* margin-top: 100px; */
   text-transform: uppercase;
+  color: #242321;
 }
 
 .block__info-two {
@@ -196,32 +199,32 @@ table {
 }
 
 .b {
-  top: -98px;
+  top: -109px;
 }
 
 .c {
-  top: -28px;
-  left: 130px;
+  top: -24px;/*95*/
+  left: 132px;
 }
 
 .e {
-  top: 77px;
-  left: 265px;
+  top: 69px;
+  left: 275px;
 }
 
 .info-two_category {
   font-weight: 500;
   font-size: 24px;
   color: #242321;
-  margin-top: 328px;
+  margin-top: 320px;
   margin-left: 145px;
 }
 
 
 
 
-.study__title, .price__title, .instructor__title {
-  margin: 155px auto 60px 150px;
+.study__title, .price__title, .instructor__title, .advantages__title, .cars__title {
+  margin: 116px auto 60px 150px;
   font-weight: 500;
   font-size: 36px;
 }
@@ -282,6 +285,9 @@ h3 {
 }
 
 
+/* .instructor {
+  margin-bottom: 117px;
+} */
 
 .instructor__info {
   display: flex;
@@ -395,4 +401,56 @@ h3 {
   font-size: 24px;
   text-transform: uppercase;
 }
+
+
+.advantages__background {
+  background-color: #FCB300;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.advantages__info {
+  display: inline-grid;
+  gap: 60px;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 55px;
+  padding-right: 55px;
+  background-color: #fff;
+}
+
+.advantages__item {
+  background-color: #FBFBFB;
+  border: 5px solid #FCB300;
+  width: 290px;
+  height: 290px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.advantages__item-first {
+  font-weight: 500;
+  font-size: 96px;
+  color: #8BD329;
+  margin-bottom: 15px;
+}
+
+.advantages__item-second {
+  font-weight: 500;
+  font-size: 24px;
+  color: #242321;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+ .advantages__item-third {
+  font-size: 18px;
+  color: #242321;
+ }
+
+ .advantages__icon {
+  margin-bottom: 20px;/*вместо 17.5*/
+   }
 
