@@ -14,7 +14,7 @@
           <li class="nav__item"><a href="#study" class="nav__link">Обучение</a></li>
           <li class="nav__item"><a href="#price" class="nav__link">Цены</a></li>
           <li class="nav__item"><a href="#instructor" class="nav__link">Об инструкторе</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Уч. автомобили</a></li>
+          <li class="nav__item"><a href="#cars" class="nav__link">Уч. автомобили</a></li>
           <li class="nav__item"><a href="#" class="nav__link">Отзывы</a></li>
           <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
         </ul>
@@ -171,7 +171,7 @@
               <img src="images/your__car.png" alt="Ваше авто" title="Ваше авто">
           </div>
             <p class="your__byn"><span class="price__your-bun">25 <span class="price__byns">byn</span></span></p>
-            <button class="info__button">Записаться</button>
+            <button class="info__button your__car-button">Записаться</button>
           </div>
         </div>
       </div>
@@ -232,15 +232,26 @@
 
 
       <div class="cars">
-        <h2 class="cars__title">Учебные автомобили</h2>
+        <h2 class="cars__title" id="cars">Учебные автомобили</h2>
       </div>
 
 
 
-
+      <div class="modal">
+        <div class="modal__container">
+          <button class="modal__close-btn"></button>
+          <h2 class="modal__title">Записаться на обучение</h2>
+          <form action="#" method="POST" class="modal__form">
+            <input type="text" placeholder="Ваше имя" class="modal__input" required>
+            <input type="tel" placeholder="Ваш телефон" class="modal__input" required>
+            <button class="modal__btn">Заказать звонок</button>
+          </form>
+        </div>
+      </div>
     </main>
 
 
   </div>
+  <script src="script.js"></script>
 </body>
 </html>
