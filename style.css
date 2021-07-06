@@ -196,7 +196,9 @@ table {
   cursor: pointer;
   color: #fbfbfb;
   background-color: #242321;
-  transition: background-color 1s, color 1s;
+  outline: 2px solid #FCB300;
+  transition: background-color 1s, color 1s, outline .5s;
+
 }
 
 .block__info-two {
@@ -476,25 +478,6 @@ h3 {
   margin-bottom: 14px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .instructor__info {
   display: flex;
   flex-direction: column;
@@ -533,7 +516,6 @@ h3 {
   margin-bottom: 50px;
 }
 
-
 .form__container {
   background-color: #FCB300;
   margin-top: -43px;
@@ -548,12 +530,6 @@ h3 {
   padding-bottom: 60px;
   margin-bottom: 33px;
 }
-
-
-
-
-
-
 
 .span-one {
   font-weight: 500;
@@ -713,14 +689,14 @@ h3 {
    }
 
    .modal__container {
-     width: 430px;
+     width: 336px;
      background-color: #242321;
      border: 5px solid #FCB300;
      display: flex;
      flex-direction: column;
      justify-content: center;
-     padding-left: 35px;
-     padding-right: 35px;
+     padding-left: 36px;
+     padding-right: 36px;
      position: relative;
    }
 
@@ -740,16 +716,18 @@ h3 {
 
    .modal__close-btn:hover {
      cursor: pointer;
+     background-color: #fff;
+     transition: background-color .3s;
    }
 
    .modal__title {
     font-weight: 500;
-    font-size: 24px;
+    font-size: 18px;
     text-transform: uppercase;
     color: #FBFBFB;
     text-align: center;
-    margin-top: 69px;
-    margin-bottom: 74px;
+    margin-top: 81px;
+    margin-bottom: 38px;
    }
 
    .modal__form {
@@ -759,25 +737,25 @@ h3 {
    }
 
    .modal__input {
-     padding-top: 23px;
-     padding-bottom: 22px;
-     padding-left: 68px;
-     font-size: 24px;
+     padding-top: 14px;
+     padding-bottom: 14px;
+     padding-left: 33px;
+     font-size: 18px;
    }
 
    .modal__input:first-child {
-     margin-bottom: 15px;
+     margin-bottom: 11px;
    }
 
    .modal__btn {
-    margin-top: 60px;
+    margin-top: 30px;
     font-weight: 500;
-    font-size: 24px;
-    padding-top: 23px;
-    padding-bottom: 28px;
+    font-size: 14px;
+    padding-top: 14px;
+    padding-bottom: 14px;
     text-transform: uppercase;
     background-color: #FCB300;
-    margin-bottom: 77px;
+    margin-bottom: 92px;
    }
 
    .modal__opened {
