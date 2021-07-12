@@ -654,16 +654,18 @@ h3 {
   margin-bottom: 13px;
   }
 
+  .cars {
+    margin-bottom: 300px;
+  }
 
 
-.footer {
-  padding-left: 150px;
-  padding-right: 150px;
-}
+
 
 .footer__block-one {
   display: flex;
   flex-direction: row;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 .contacts {
@@ -683,7 +685,6 @@ h3 {
   font-size: 18px;/*18*/
   font-weight: 500;
   max-width: 335px;
-
 }
 
 .phone-space {
@@ -705,6 +706,72 @@ h3 {
 
 .footer__modal__container {
   margin-left: auto;
+}
+
+.footer__block-two {
+  background-color: #242321;
+  padding-right: 150px;
+  padding-left: 150px;
+  padding-top: 16px;
+  margin-top: -292px;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer__info {
+  max-width: 400px;
+  text-transform: uppercase;
+  margin-right: 110px;
+}
+
+.footer__info-text {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 50px;
+  color: #FBFBFB;
+}
+
+.footer__text-yellow {
+  color: #FCB300;
+}
+
+.footer__text-font {
+  font-size: 13px;
+  text-transform: lowercase;
+  color: #FCB300;
+  margin-top: 5px;
+  display: inline-block;
+  margin-bottom: 143px;
+}
+
+.footer__list {
+  margin-top: 63px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer div:first-child {
+  margin-right: 40px;
+}
+
+.footer div li:first-child {
+  margin-bottom: 16px;
+}
+
+.footer__list-item {
+  font-size: 13px;
+}
+
+.copyright {
+  background-color: #fcb300;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 14px;
+}
+
+.copyright__text {
+  text-align: center;
 }
 
 
