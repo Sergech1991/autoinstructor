@@ -45,8 +45,8 @@
         <div class="study__cover">
           <div class="study__info">
             <p>Для каждого ученика необходимо разное количество занятий.</p>
-              <p>Некоторые приходят уже подготовленные и им просто не хватает уверенности в себе, некоторым необходимо 2-3 занятия, чтоб смело идти в ГАИ и сдать с первого раза.
-              В любом случае, познакомившись с учеником, мы подбираем индивидуальную программу, основываясь на его навыках и умениях стараясь минимизировать затраты и время!</p>
+              <p>Некоторые приходят уже подготовленные и им просто не хватает уверенности в себе, некоторым необходимо 2-3 занятия, чтоб смело идти в ГАИ и сдать с первого раза.</p>
+              <p>В любом случае, познакомившись с учеником, мы подбираем индивидуальную программу, основываясь на его навыках и умениях стараясь минимизировать затраты и время!</p>
           </div>
           <img src="images/keys.png" alt="keys" title="car`s keys" class="keys">
           <div class="study__item">
@@ -153,7 +153,7 @@
               <p>Занятия проходят в городе и на автодроме</p>
               <p>Автомобили</p>
               <p class="price__main-car">Valdai 2020г МКПП</p>
-              <p class="price__main-car">Valdai с прицепом 2020г МКПП</p>
+              <p class="price__main-car">Valdai с прицепом 2020г</p>
               <p>Продолжительность - 60 минут</p>
             </div>
             <p class="price__byn"><span class="price__byn-font">40 <span class="price__byns">byn</span></span></p>
@@ -167,9 +167,6 @@
               <p>на вашем автомобиле</p>
               <p>это возможность отработки навыков, которые позволят вам изучить все особенности автомобиля</p>
             </div>
-            <div class="your__car-image">
-              <img src="images/your__car.png" alt="Ваше авто" title="Ваше авто">
-          </div>
             <p class="your__byn"><span class="price__your-bun">25 <span class="price__byns">byn</span></span></p>
             <button class="info__button your__car-button">Записаться</button>
           </div>
@@ -186,16 +183,18 @@
             <p class="instructor__text-p"> Провожу дополнительные занятия по обучению вождением в Минске на легковых автомобилях с АКПП и МКПП, ГРУЗОВОМ автомобиле(Валдай) и ГРУЗОВОМ автомобиле(Валдай) с прицепом(кат. СЕ).</p>
             <p class="instructor__text-p">Позабочусь о вашей должной психологической подготовке, предполагающей в первую очередь вырабатывание чувства ответственности. Все машины оснащены дублирующими педалями, что не позволит вам совершить крупную ошибку, однако пользуюсь ими  крайне редко, "заставляя" Вас полагаться исключительно на собственные навыки и умения при обучении вождением.</p>
           </div>
-          <div class="instructor__form">
-            <p class="span-one">Оставьте заявку сейчас</p>
-            <span class="ten">10<span class="ten-percent">%</span></span>
-            <p class="span-two">И получите скидку</p>
-            <p class="span-three">на второй час индивидуальных занятий с автоинструктором</p>
-            <form action="#" class="instructor__feedback">
-              <input type="text" placeholder="Ваше имя" class="instructor__feedback-input">
-              <input type="tel" placeholder="Ваш телефон" class="instructor__feedback-input">
-              <button class="instructor__feedback-button">Получить скидку</button>
-            </form>
+          <div class="form__container">
+            <div class="instructor__form">
+              <p class="span-one">Оставьте заявку сейчас</p>
+              <span class="ten">10<span class="ten-percent">%</span></span>
+              <p class="span-two">И получите скидку</p>
+              <p class="span-three">на второй час индивидуальных занятий с автоинструктором</p>
+              <form action="#" class="instructor__feedback">
+                <input type="text" placeholder="Ваше имя" class="instructor__feedback-input">
+                <input type="tel" placeholder="Ваш телефон" class="instructor__feedback-input">
+                <button class="instructor__feedback-button">Получить скидку</button>
+              </form>
+            </div>
           </div>
         </div>
       </div>
@@ -237,9 +236,24 @@
 
 
 
-      <div class="modal">
-        <div class="modal__container">
-          <button class="modal__close-btn"></button>
+    </main>
+
+
+    <footer class="footer">
+      <div class="footer__block-one">
+        <div class="contacts">
+          <p class="contacts__p">Контакты</p>
+          <div class="footer__phone">
+            <div class="phone phone-space"><p class="phone__text">+ 375 (29) 102 71 10</p><img src="images/a1.png" alt="a1" title="Набери на a1" class="a1"><img src="images/viber.png" alt="Viber" title="Напиши мне в вайбер" class="viber"></div>
+            <div class="phone phone-space"><p class="phone__text">+ 375 (29) 754 79 60</p><img src="images/mts.png" alt="mts" title="Набери на мтс" class="mts"></div>
+          </div>
+        </div>
+        <div class="social">
+          <p class="social__p">Я в соцсетях</p>
+          <img src="images/vk.png" alt="vk" title="вконтакте" class="social__vk">
+          <p class="social__text">Сергей Сергеевич</p>
+        </div>
+        <div class="modal__container footer__modal__container">
           <h2 class="modal__title">Записаться на обучение</h2>
           <form action="#" method="POST" class="modal__form">
             <input type="text" placeholder="Ваше имя" class="modal__input" required>
@@ -248,9 +262,21 @@
           </form>
         </div>
       </div>
-    </main>
+    </footer>
 
 
+
+    <div class="modal">
+      <div class="modal__container">
+        <button class="modal__close-btn"></button>
+        <h2 class="modal__title">Записаться на обучение</h2>
+        <form action="#" method="POST" class="modal__form">
+          <input type="text" placeholder="Ваше имя" class="modal__input" required>
+          <input type="tel" placeholder="Ваш телефон" class="modal__input" required>
+          <button class="modal__btn">Заказать звонок</button>
+        </form>
+      </div>
+    </div>
   </div>
   <script src="script.js"></script>
 </body>
