@@ -177,9 +177,10 @@ table {
 }
 
 .block__text-font {
-  font-size: 13px;
+  font-size: 16px;
   display: inline-block;
   margin-bottom: 66px;
+  text-transform: lowercase;
 }
 
 .info__button {
@@ -223,7 +224,7 @@ table {
 }
 
 .e {
-  top: 75px;
+  top: 72px;
   left: 182px;
 }
 
@@ -269,6 +270,7 @@ table {
 
 .study__item {
   border: 5px solid #FCB300;
+  border-right: none;
   padding-top: 195px;
   padding-left: 180px;
   padding-bottom: 38px;
@@ -654,6 +656,71 @@ h3 {
 
 
 
+.footer {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.footer__block-one {
+  display: flex;
+  flex-direction: row;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  margin-right: 150px;
+}
+
+.contacts__p {
+  font-weight: 500;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 25px;/*35*/
+}
+
+.footer__phone {
+  font-size: 18px;/*18*/
+  font-weight: 500;
+  max-width: 335px;
+
+}
+
+.phone-space {
+  margin-left: 0;
+}
+
+.social__p {
+  font-weight: 500;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 28px;
+}
+
+.social__text {
+  font-weight: 500;
+  font-size: 14px;/*13*/
+  margin-top: 12px;
+}
+
+.footer__modal__container {
+  margin-left: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -762,3 +829,4 @@ h3 {
     visibility: visible;
     opacity: 1;
    }
+

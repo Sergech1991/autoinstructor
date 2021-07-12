@@ -153,7 +153,7 @@
               <p>Занятия проходят в городе и на автодроме</p>
               <p>Автомобили</p>
               <p class="price__main-car">Valdai 2020г МКПП</p>
-              <p class="price__main-car">Valdai с прицепом 2020г МКПП</p>
+              <p class="price__main-car">Valdai с прицепом 2020г</p>
               <p>Продолжительность - 60 минут</p>
             </div>
             <p class="price__byn"><span class="price__byn-font">40 <span class="price__byns">byn</span></span></p>
@@ -236,9 +236,24 @@
 
 
 
-      <div class="modal">
-        <div class="modal__container">
-          <button class="modal__close-btn"></button>
+    </main>
+
+
+    <footer class="footer">
+      <div class="footer__block-one">
+        <div class="contacts">
+          <p class="contacts__p">Контакты</p>
+          <div class="footer__phone">
+            <div class="phone phone-space"><p class="phone__text">+ 375 (29) 102 71 10</p><img src="images/a1.png" alt="a1" title="Набери на a1" class="a1"><img src="images/viber.png" alt="Viber" title="Напиши мне в вайбер" class="viber"></div>
+            <div class="phone phone-space"><p class="phone__text">+ 375 (29) 754 79 60</p><img src="images/mts.png" alt="mts" title="Набери на мтс" class="mts"></div>
+          </div>
+        </div>
+        <div class="social">
+          <p class="social__p">Я в соцсетях</p>
+          <img src="images/vk.png" alt="vk" title="вконтакте" class="social__vk">
+          <p class="social__text">Сергей Сергеевич</p>
+        </div>
+        <div class="modal__container footer__modal__container">
           <h2 class="modal__title">Записаться на обучение</h2>
           <form action="#" method="POST" class="modal__form">
             <input type="text" placeholder="Ваше имя" class="modal__input" required>
@@ -247,9 +262,21 @@
           </form>
         </div>
       </div>
-    </main>
+    </footer>
 
 
+
+    <div class="modal">
+      <div class="modal__container">
+        <button class="modal__close-btn"></button>
+        <h2 class="modal__title">Записаться на обучение</h2>
+        <form action="#" method="POST" class="modal__form">
+          <input type="text" placeholder="Ваше имя" class="modal__input" required>
+          <input type="tel" placeholder="Ваш телефон" class="modal__input" required>
+          <button class="modal__btn">Заказать звонок</button>
+        </form>
+      </div>
+    </div>
   </div>
   <script src="script.js"></script>
 </body>
