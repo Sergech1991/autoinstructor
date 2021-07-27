@@ -239,7 +239,7 @@ table {
 
 
 
-.study__title, .price__title, .instructor__title, .advantages__title, .cars__title {
+.study__title, .price__title, .instructor__title, .advantages__title, .cars__title, .reviews__title {
   margin: 70px auto 40px 150px;
   font-weight: 500;
   font-size: 36px;
@@ -654,9 +654,130 @@ h3 {
   margin-bottom: 13px;
   }
 
-  .cars {
-    margin-bottom: 300px;
+  .cars__block {
+    padding-left: 26px;
+    padding-right: 26px;
+    background-color: #242321;
   }
+
+  .cars__list {
+    margin-bottom: 71px;
+    color: #FBFBFB;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .car__item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .car__item-header {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .car__b-span {
+    font-weight: 500;
+    font-size: 100px;
+    text-transform: uppercase;
+  }
+
+  .car__kpp {
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+    align-self: flex-end;
+    margin-bottom: 22px;
+    margin-left: 5px;
+  }
+
+  .car__kpp-category {
+    font-weight: 500;
+    font-size: 13px;
+    color: #FCB300;
+  }
+
+  .car__item-main {
+    width: 320px;
+    height: 320px;
+    margin-bottom: 5px;
+    object-fit: cover;
+  }
+
+  .car__item-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .car__footer-img {
+    width: 103px;
+    height: 103px;
+    object-fit: cover;
+  }
+
+  .form__container-car {
+    padding-bottom: 33px;
+  }
+
+  .instructor__form-car {
+    border: 5px solid #FCB300;
+    max-width: 1367px;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 60px;
+  }
+
+  .span-one-car {
+    font-weight: 500;
+    font-size: 40px;
+    margin-top: 61px;
+    margin-left: 114px;
+    text-transform: uppercase;
+    color: #FBFBFB;
+  }
+
+  .span-two-car {
+    font-weight: 500;
+    font-size: 40px;
+    color: #FCB300;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 70px;
+  }
+
+  .sixty {
+    position: absolute;
+    left: 980px;/*1014*/
+    top: 25px;
+    font-size: 280px;
+    font-weight: 500;
+    color: #fbfbfb;
+  }
+
+  .sixty-minutes {
+    font-size: 24px;
+    font-weight: 500;
+    color: #fcb300;
+    margin-left: -60px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
