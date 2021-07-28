@@ -263,8 +263,9 @@ table {
 
 .keys {
   position: absolute;
-  left: 1250px;
+  /* left: 1250px; */
   top: -3px;
+  right: 150px;
 }
 
 
@@ -439,7 +440,7 @@ h3 {
   margin-top: -33px;
   padding-top: 86px;
   padding-bottom: 24px;
-  padding-right: 200px;/*instead 217*/
+  padding-right: 150px;/*instead 217*/
   text-align: right;
 }
 
