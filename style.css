@@ -62,7 +62,8 @@ table {
   list-style: none;
   display: flex;
   flex-direction: row;
-  margin: 49px 100px 40px 150px;
+  padding: 0;
+  margin: 43px auto 33px 150px;
   font-size: 16px;/*13*/
 }
 
@@ -82,9 +83,10 @@ table {
 .header__phone {
   background-color: #FCB300;
   font-size: 20px;/*18*/
-  font-weight: 500;
-  max-width: 335px;
+  font-weight: 600;
+  max-width: 330px;
   width: 100%;
+  margin-right: 150px;
 }
 
 .phone {
@@ -128,8 +130,8 @@ table {
   background-color: #FCB300;
   text-decoration: underline;
   cursor: pointer;
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 400;
   margin-top: 5px;
   margin-bottom: 0;
   margin-left: 70px;/*вместо 81px*/
@@ -145,31 +147,26 @@ table {
   width: 100%;
   /* max-width: 1440px; */
   text-transform: uppercase;
-  padding-top: 387px;
+  padding-top: 420px;
 }
 
 .block__info {
-  /* top: 452px; */
   font-size: 40px;
   max-width: 930px;
   background-color: #FCB300;
-  padding-left: 110px;
-  padding-top: 54px;
-  padding-bottom: 33px;
+  padding-left: 150px;
+  padding-top: 35px;
+  padding-bottom: 6px;
   display: flex;
 }
 
 .block__info-one {
   display: block;
-  max-width: 376px;
+  max-width: 410px;
   margin-right: 63px;
+  margin-bottom: 15px;
+  font-weight: bold;
 }
-
-/* .block-text {
-  padding-left: 150px;
-  display: inline-block;
-  max-width: 503px;
-} */
 
 .block__text-white {
   color: #FBFBFB;
@@ -178,19 +175,21 @@ table {
 
 .block__text-font {
   font-size: 16px;
+  font-weight: 300;
   display: inline-block;
-  margin-bottom: 66px;
-  text-transform: lowercase;
+  margin-bottom: 64px;
+  text-transform: none;
 }
 
 .info__button {
   font-size: 18px;
+  font-weight: 600;
   background-color: #FBFBFB;
-  padding: 16px 75px;
+  padding: 16px 70px;
   border: none;
-  /* margin-top: 100px; */
   text-transform: uppercase;
   color: #242321;
+  border-radius: 5px;
 }
 
 .info__button:hover {
@@ -203,7 +202,6 @@ table {
 }
 
 .block__info-two {
-  font-weight: 500;
   color: #FBFBFB;
   letter-spacing: 0;
   position: relative;
@@ -212,36 +210,42 @@ table {
 .b, .c, .e {
   font-size: 200px;
   position: absolute;
+  font-weight: 700;
 }
 
 .b {
   top: -70px;
+  left: 20px;
 }
 
 .c {
   top: 2px;/*95*/
-  left: 85px;
+  left: 105px;
 }
 
 .e {
   top: 72px;
-  left: 182px;
+  left: 196px;
+  z-index: 15;
 }
 
 .info-two_category {
-  font-weight: 500;
-  font-size: 13px;
+  position: absolute;
+  font-weight: 700;
+  font-size: 16px;
   color: #242321;
-  margin-top: 270px;
+  margin-top: 247px;
   margin-left: 240px;
+  z-index: 20;
+  background-color: transparent;
 }
 
 
 
 
 .study__title, .price__title, .instructor__title, .advantages__title, .cars__title, .reviews__title {
-  margin: 70px auto 40px 150px;
-  font-weight: 500;
+  margin: 70px auto 30px 150px;
+  font-weight: 600;
   font-size: 36px;
 }
 
@@ -255,6 +259,7 @@ table {
   background-color: #FCB300;
   padding: 28px 30px 28px 150px;
   font-size: 16px;
+  font-weight: 300;
 }
 
 .study__info p:not(:last-child) {
@@ -263,7 +268,6 @@ table {
 
 .keys {
   position: absolute;
-  /* left: 1250px; */
   top: -3px;
   right: 150px;
 }
@@ -272,10 +276,10 @@ table {
 .study__item {
   border: 5px solid #FCB300;
   border-right: none;
-  padding-top: 195px;
-  padding-left: 180px;
-  padding-bottom: 38px;
-  margin-left: 150px;
+  padding: 202px 150px 70px 130px;
+  margin-left: 25px;
+  display: flex;
+  flex-direction: row;
 }
 
 .study__item-list {
@@ -286,6 +290,12 @@ table {
 .study__item-list:not(:last-child) {
   margin-bottom: 33px;
 }
+
+.study__item-list:last-child {
+  margin-top: 50px;
+}
+
+
 
 h3 {
   margin-bottom: 10px;
