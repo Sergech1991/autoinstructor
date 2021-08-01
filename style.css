@@ -156,7 +156,7 @@ table {
   background-color: #FCB300;
   padding-left: 150px;
   padding-top: 35px;
-  padding-bottom: 6px;
+  /* padding-bottom: 29px; */
   display: flex;
 }
 
@@ -164,7 +164,7 @@ table {
   display: block;
   max-width: 410px;
   margin-right: 63px;
-  margin-bottom: 15px;
+  margin-bottom: 29px;
   font-weight: bold;
 }
 
@@ -174,10 +174,11 @@ table {
 }
 
 .block__text-font {
+  display: flex;
   font-size: 16px;
   font-weight: 300;
-  display: inline-block;
-  margin-bottom: 64px;
+  margin-top: 3px;
+  margin-bottom: 53px;
   text-transform: none;
 }
 
@@ -189,7 +190,7 @@ table {
   border: none;
   text-transform: uppercase;
   color: #242321;
-  border-radius: 5px;
+  /* border-radius: 5px; */
 }
 
 .info__button:hover {
@@ -202,30 +203,26 @@ table {
 }
 
 .block__info-two {
-  color: #FBFBFB;
-  letter-spacing: 0;
   position: relative;
 }
 
 .b, .c, .e {
-  font-size: 200px;
   position: absolute;
-  font-weight: 700;
 }
 
 .b {
-  top: -70px;
-  left: 20px;
+  top: -30px;
+  left: 33px;
 }
 
 .c {
-  top: 2px;/*95*/
-  left: 105px;
+  top: 43px;
+  left: 116px;
 }
 
 .e {
-  top: 72px;
-  left: 196px;
+  top: 111px;
+  left: 216px;
   z-index: 15;
 }
 
@@ -233,11 +230,12 @@ table {
   position: absolute;
   font-weight: 700;
   font-size: 16px;
-  color: #242321;
-  margin-top: 247px;
-  margin-left: 240px;
+  color: #FCB300;
+  margin-top: 229px;/*232*/
+  margin-left: 245px;
   z-index: 20;
-  background-color: transparent;
+  background-color: #fbfbfb;
+  line-height: 25.5px;
 }
 
 
