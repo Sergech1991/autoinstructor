@@ -242,7 +242,7 @@ table {
 
 
 .study__title, .price__title, .instructor__title, .advantages__title, .cars__title, .reviews__title {
-  margin: 70px auto 30px 150px;
+  margin: 90px auto 30px 150px;
   font-weight: 600;
   font-size: 36px;
 }
@@ -280,6 +280,10 @@ table {
   flex-direction: row;
 }
 
+.study__item ul:first-child {
+  margin-right: 35px;
+}
+
 .study__item-list {
   display: flex;
   flex-direction: row;
@@ -287,6 +291,7 @@ table {
 
 .study__item-list:not(:last-child) {
   margin-bottom: 33px;
+  /* margin-right: 35px; */
 }
 
 .study__item-list:last-child {
@@ -342,65 +347,83 @@ h3 {
   text-transform: uppercase;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   margin-bottom: 15px;
+  padding-right: 29px;
+  padding-left: 29px;
 }
 
 .item__b {
-  font-weight: 500;
-  font-size: 100px;
-  margin-right: 50px;
-  margin-bottom: 28px;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.b-cost {
+  width: 52.93px;
+  margin-bottom: 10px;
 }
 
 .item__kpp {
-  font-weight: 500;
-  font-size: 18px;
-  text-align: right;
-  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.item__kpp p:first-child {
+.item__kpp-a {
+  margin-top: 34px;
+}
+
+.item__kpp-m {
+  margin-bottom: 27px;
+}
+
+.item__category {
   margin-bottom: 5px;
-}
-
-.item__kpp-category {
-  color: #242321;
-  margin-bottom: 11px;
-  margin-top: 5px;
 }
 
 .price__main {
   color: #FBFBFB;
   font-size: 16px;
-  margin-bottom: 15px;
+  font-weight: 300;
+  margin-bottom: 12px;
+  margin-top: 24px;
+  margin-left: 29px;
 }
 
 .price__main p:first-child {
-  margin-bottom: 20px;
+  margin-bottom: 8px;
 }
 
 .price__main-car {
   font-size: 18px;
   color: #FCB300;
-  margin-top: 5px;
+  font-weight: bold;
 }
 
-.price__main p:last-child {
-  margin-top: 20px;
+.price__main ul {
+  margin-top: 15px;
+  list-style-type: disc;
+  font-size: 16px;
+  font-weight: 300px;
+  margin-left: -24px;
+}
+
+.price__main ul li:first-child {
+  margin-bottom: 10px;
 }
 
 .price__byn {
   text-align: right;
-  margin-bottom: 15px;
+  margin-bottom: 13px;
 }
 
 .price__byn-font {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 48px;
   color: #FCB300;
   text-transform: uppercase;
-
 }
 
 .price__byns {
@@ -408,27 +431,16 @@ h3 {
 }
 
 .price__item-header-c {
-  color: #FBFBFB;
-  background-color: #FCB300;
-  text-transform: uppercase;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 15px;
+  display: block;
 }
 
-.item__c {
-  font-weight: 500;
-  font-size: 100px;
+.cce-cost {
+  width: 197px;
   margin: 0 auto;
+  margin-top: 3px;
+  margin-bottom: 5px;
 }
 
-.item__c-category {
-  color: #242321;
-  padding-bottom: 7px;
-  margin-right: 36px;
-  margin-top: -5px;
-}
 
 .price__trailer {
     position: absolute;
@@ -446,7 +458,7 @@ h3 {
   background-color: #FCB300;
   width: auto;
   margin-top: -33px;
-  padding-top: 86px;
+  padding-top: 61px;
   padding-bottom: 24px;
   padding-right: 150px;/*instead 217*/
   text-align: right;
@@ -455,32 +467,36 @@ h3 {
 .your__car p:first-child {
   font-size: 16px;
   color: #FBFBFB;
+  margin-bottom: 13px;
 }
 
 .your__car p:nth-of-type(2) {
   font-size: 40px;
   color: #FBFBFB;
   text-transform: uppercase;
-  margin-bottom: 17px;
+  font-weight: bold;
+  margin-bottom: -2px;
 }
 
 .your__car p:nth-of-type(3) {
-  font-weight: 500;
+  font-weight: bold;
   font-size: 40px;
   text-transform: uppercase;
   color: #242321;
-  margin-bottom: 17px;
+  margin-bottom: 21px;
 }
 
 .your__car p:last-child {
   font-size: 16px;
+  font-weight: 300;
   color: #242321;
-  margin-bottom: 40px;
+  margin-left: 58px;
+  margin-bottom: 12px;
 }
 
 .price__your-bun {
   color: #FBFBFB;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 48px;
   text-transform: uppercase;
 }
