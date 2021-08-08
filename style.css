@@ -519,33 +519,34 @@ h3 {
 
 .instructor__text {
   position: absolute;
-  width: 705px;
+  /* width: 705px; */
   top: 33px;
   left: 735px;
   background-color: #242321;
-  color: #fff;
-  padding-top: 50px;
-  padding-left: 68px;
+  color: #f8f8f8;
+  padding-top: 60px;
+  padding-right: 150px;
+  padding-left: 38px;
   z-index: 12;
 }
 
 .instructor__text-p {
-  font-size: 18px;
+  font-size: 16px;
   display: inline-block;
-  width: 487px
+  font-weight: 300px;
 }
 
 .instructor__text-p:not(:last-child) {
-  margin-bottom: 30px;
+  margin-bottom: 35px;
 }
 
 .instructor__text-p:last-child {
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 
 .form__container {
   background-color: #FCB300;
-  margin-top: -43px;
+  margin-top: -50px;
 }
 
 .instructor__form {
@@ -553,65 +554,63 @@ h3 {
   max-width: 1367px;
   margin: 0 auto;
   position: relative;
-  margin-top: 18px;
-  padding-bottom: 60px;
+  margin-top: 31px;
   margin-bottom: 33px;
 }
 
 .span-one {
-  font-weight: 500;
+  font-weight: bold;
   font-size: 40px;
   color: #fbfbfb;
-  margin-top: 61px;
-  margin-left: 114px;
+  margin-top: 45px;
+  margin-left: 107px;
   text-transform: uppercase;
 }
 
 .span-two {
-  font-weight: 500;
+  font-weight: bold;
   font-size: 40px;
   color: #242321;
   text-transform: uppercase;
-  text-align: center;
-  margin-top: 15px;
+  margin-left: 510px;
+  margin-top: 5px;
 }
 
 .ten {
   position: absolute;
-  left: 980px;/*1014*/
-  top: 30px;
-  font-size: 280px;
-  font-weight: 500;
-  color: #fbfbfb;
+  right: 142px;
+  bottom: 60px;
 }
 
 .ten-percent {
-  font-size: 48px;
-  font-weight: 500;
-  color: #242321;
-  margin-left: -52px;
+  position: absolute;
+  right: 107px;
+  bottom: 60px;
 }
 
 .span-three {
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: 300;
   margin-top: 5px;
-  margin-left: 470px;
-  margin-bottom: 50px;
+  margin-left: 500px;
+  margin-bottom: 35px;
 }
 
 .instructor__feedback {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  padding-left: 114px;
+  padding-left: 108px;
+  margin-bottom: 60px;
 }
 
 .instructor__feedback-input {
   width: 263px;
-  padding-top: 14px;
-  padding-bottom: 14px;
+  padding-top: 12px;
+  padding-bottom: 13px;
   padding-left: 33px;
   font-size: 18px;
+  font-weight: 300;
   margin-right: 30px;
 }
 
@@ -619,6 +618,7 @@ h3 {
   width: 263px;
   padding: 14px auto;
   font-size: 18px;
+  font-weight: 600;
   text-transform: uppercase;
 }
 
@@ -647,8 +647,9 @@ h3 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-left: 12px;
-  padding-right: 12px;
+  position: relative;
+  /* padding-left: 9px;
+  padding-right: 9px; */
 }
 
 .advantages__item:not(:last-child) {
@@ -659,14 +660,16 @@ h3 {
   font-weight: 500;
   font-size: 36px;
   color: #8BD329;
+  margin-bottom: 5px;
 }
 
 .advantages__item-second {
-  font-weight: 500;
-  font-size: 14px;
+  font-weight: 600;
+  font-size: 16px;
   color: #242321;
   margin-bottom: 5px;
   text-transform: uppercase;
+  text-align: center;
 }
 
  .advantages__item-third {
@@ -675,9 +678,18 @@ h3 {
   text-align: center;
  }
 
- .advantages__icon {
-  margin-bottom: 13px;
+ .advantages__icon-first {
+    position: absolute;
+    top: 27px;
   }
+
+  .undercar {
+    margin-top: 48px;
+  }
+
+  .advantages__icon-second {
+    margin-bottom: 12px;
+    }
 
   .cars__block {
     padding-left: 26px;
