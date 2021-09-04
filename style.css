@@ -711,15 +711,16 @@ h3 {
   }
 
   .car__item-header {
-    padding-left: 20px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
   }
 
-  .car__b-span {
-    font-weight: 500;
-    font-size: 100px;
-    text-transform: uppercase;
+  .car__b {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
   }
 
   .car__kpp {
@@ -727,14 +728,16 @@ h3 {
     font-size: 18px;
     text-transform: uppercase;
     align-self: flex-end;
-    margin-bottom: 22px;
-    margin-left: 5px;
+    margin-bottom: 15px;
   }
 
   .car__kpp-category {
     font-weight: 500;
-    font-size: 13px;
+    font-size: 18px;
     color: #FCB300;
+    margin-left: 5px;
+    text-transform: uppercase;
+    align-self: flex-end;
   }
 
   .car__item-main {
@@ -757,7 +760,7 @@ h3 {
   }
 
   .form__container-car {
-    padding-bottom: 33px;
+    padding-bottom: 78px;
   }
 
   .instructor__form-car {
@@ -765,49 +768,50 @@ h3 {
     max-width: 100%;
     margin: 0 auto;
     position: relative;
-    padding-bottom: 60px;
+    padding-bottom: 0;
+    position: relative;
   }
 
   .span-one-car {
-    font-weight: 500;
+    font-weight: bold;
     font-size: 40px;
-    margin-top: 61px;
-    margin-left: 114px;
+    margin-top: 50px;
+    margin-left: 108px;
     text-transform: uppercase;
     color: #FBFBFB;
   }
 
   .span-two-car {
-    font-weight: 500;
+    font-weight: bold;
     font-size: 40px;
     color: #FCB300;
     text-transform: uppercase;
-    text-align: center;
+    margin-left: 583px;
     margin-top: 15px;
     margin-bottom: 70px;
   }
 
-  .sixty {
-    position: absolute;
-    left: 980px;/*1014*/
-    top: 25px;
-    font-size: 280px;
-    font-weight: 500;
-    color: #fbfbfb;
+  .instructor__form-car {
+    margin-left: 10px;
   }
 
-  .sixty-minutes {
-    font-size: 24px;
-    font-weight: 500;
-    color: #fcb300;
-    margin-left: -60px;
+  .sixty {
+    position: absolute;
+    right: 145px;
+    top: 133px;
+  }
+
+  .minutes {
+    position: absolute;
+    right: 92px;
+    top: 270px;
   }
 
   .reviews__blocks {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 70px;
+    margin-bottom: 90px;
     padding-left: 150px;
   }
 
@@ -854,6 +858,7 @@ h3 {
     background-color: #FCB300;
     text-transform: uppercase;
     font-size: 18px;
+    font-weight: bold;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -862,25 +867,27 @@ h3 {
 
   .reviews__arrow {
     position: absolute;
-    top: 63px;
-    right: 13px;
+    top: 55px;
+    right: 32px;
   }
 
   .reviews__item-last p:first-child {
     display: inline-block;
     max-width: 178px;
     color: #FBFBFB;
-    margin-top: 23px;
-    margin-left: 30px;
+    margin-top: 18px;
+    margin-left: 90px;
+    text-align: right;
   }
 
   .reviews__item-last p:nth-of-type(2) {
-    margin-left: 53px;
+    margin-left: 48px;
   }
 
   .reviews__img {
     width: 333px;
     height: 181px;
+    margin-right: 23px;
   }
 
 
@@ -909,11 +916,11 @@ h3 {
 .contacts {
   display: flex;
   flex-direction: column;
-  margin-right: 150px;
+  margin-right: 140px;
 }
 
 .contacts__p {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 18px;
   text-transform: uppercase;
   margin-bottom: 25px;/*35*/
@@ -921,7 +928,7 @@ h3 {
 
 .footer__phone {
   font-size: 18px;/*18*/
-  font-weight: 500;
+  font-weight: 600;
   max-width: 335px;
 }
 
@@ -930,14 +937,14 @@ h3 {
 }
 
 .social__p {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 18px;
   text-transform: uppercase;
   margin-bottom: 28px;
 }
 
 .social__text {
-  font-weight: 500;
+  font-weight: normal;
   font-size: 14px;/*13*/
   margin-top: 12px;
 }
@@ -957,13 +964,14 @@ h3 {
 }
 
 .footer__info {
-  max-width: 400px;
+  margin-top: 30px;
+  max-width: 410px;
   text-transform: uppercase;
-  margin-right: 110px;
+  padding-bottom: 32px;
 }
 
 .footer__info-text {
-  font-weight: 900;
+  font-weight: bold;
   font-size: 40px;
   line-height: 50px;
   color: #FBFBFB;
@@ -971,19 +979,22 @@ h3 {
 
 .footer__text-yellow {
   color: #FCB300;
+  display: flex;
+  margin-bottom: -20px;
 }
 
 .footer__text-font {
-  font-size: 13px;
+  font-size: 16px;
+  font-weight: 300;
   text-transform: lowercase;
   color: #FCB300;
-  margin-top: 5px;
   display: inline-block;
-  margin-bottom: 143px;
+  margin-bottom: 100px;
 }
 
 .footer__list {
-  margin-top: 63px;
+  margin-top: 107px;
+  margin-left: 10px;
   list-style: none;
   display: flex;
   flex-direction: row;
